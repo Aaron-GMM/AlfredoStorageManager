@@ -8,10 +8,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-
 	"github.com/joho/godotenv"
 )
-
 
 func enableCORS(next http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
@@ -32,30 +30,45 @@ type FileItem struct {
 	IsDir bool   `json:"is_dir"`
 }
 
-
 type Server struct {
 	basePath string
 }
-
 
 func (s *Server) handleRoot(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Olá do meu servidor Go no Windows!")
 }
 
-
 func (s *Server) handleFiles(w http.ResponseWriter, r *http.Request) {
-	reqPath := r.URL.Query().Get("path")
+	reqPath := r.URL.Query().Get("path") 
 
-	currentDir := s.basePath 
-	if reqPath != "" {
-		resolvedPath := filepath.Join(s.basePath, reqPath) 
-
-		if !strings.HasPrefix(resolvedPath, s.basePath) { 
-			http.Error(w, "Acesso negado: Tentativa de acessar fora do diretório base", http.StatusForbidden)
-			return
-		}
-		currentDir = resolvedPath
+	var targetDir string
+	if reqPath == "" {
+		
+		targetDir = s.basePath
+	} else {
+	
+		targetDir = reqPath
 	}
+
+
+	cleanedTargetDir := filepath.Clean(targetDir)
+	cleanedBasePath := filepath.Clean(s.basePath)
+
+	
+	if !strings.HasSuffix(cleanedBasePath, string(os.PathSeparator)) {
+		cleanedBasePath += string(os.PathSeparator)
+	}
+ 
+    if len(cleanedTargetDir) == 2 && cleanedTargetDir[1] == ':' && !strings.HasSuffix(cleanedTargetDir, string(os.PathSeparator)) {
+        cleanedTargetDir += string(os.PathSeparator)
+    }
+
+	if !strings.HasPrefix(cleanedTargetDir, cleanedBasePath) {
+		http.Error(w, "Acesso negado: Tentativa de acessar fora do diretório base", http.StatusForbidden)
+		return
+	}
+
+	currentDir := cleanedTargetDir
 
 	fileInfo, err := os.Stat(currentDir)
 	if err != nil {
@@ -83,10 +96,7 @@ func (s *Server) handleFiles(w http.ResponseWriter, r *http.Request) {
 
 	w.Header().Set("Content-Type", "application/json")
 
-	displayPath := strings.TrimPrefix(currentDir, s.basePath) 
-	if displayPath == "" {
-		displayPath = s.basePath 
-	}
+	displayPath := currentDir
 
 	response := struct {
 		CurrentPath string     `json:"current_path"`
@@ -109,7 +119,7 @@ func (s *Server) handleCreateFolder(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var requestBody struct {
-		Path       string `json:"path"`
+		Path       string `json:"path"` 
 		FolderName string `json:"folder_name"`
 	}
 
@@ -118,20 +128,25 @@ func (s *Server) handleCreateFolder(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	var targetPath string
-	
-	if requestBody.Path == strings.TrimSuffix(s.basePath, string(os.PathSeparator)) || requestBody.Path == s.basePath {
-		targetPath = filepath.Join(s.basePath, requestBody.FolderName) 
-	} else {
-		targetPath = filepath.Join(s.basePath, requestBody.Path, requestBody.FolderName) 
+	cleanedBasePath := filepath.Clean(s.basePath)
+	if !strings.HasSuffix(cleanedBasePath, string(os.PathSeparator)) {
+		cleanedBasePath += string(os.PathSeparator)
 	}
 
-	if !strings.HasPrefix(targetPath, s.basePath) { 
+	targetPath := filepath.Join(requestBody.Path, requestBody.FolderName)
+    
+    cleanedTargetPath := filepath.Clean(targetPath)
+    if len(cleanedTargetPath) == 2 && cleanedTargetPath[1] == ':' && !strings.HasSuffix(cleanedTargetPath, string(os.PathSeparator)) {
+        cleanedTargetPath += string(os.PathSeparator)
+    }
+
+
+	if !strings.HasPrefix(cleanedTargetPath, cleanedBasePath) {
 		http.Error(w, "Acesso negado: Tentativa de criar pasta fora do diretório base", http.StatusForbidden)
 		return
 	}
 
-	err := os.MkdirAll(targetPath, 0755)
+	err := os.MkdirAll(cleanedTargetPath, 0755) 
 	if err != nil {
 		http.Error(w, fmt.Sprintf("Erro ao criar pasta '%s': %v", requestBody.FolderName, err), http.StatusInternalServerError)
 		return
