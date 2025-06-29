@@ -4,8 +4,8 @@
 
 **AlfredoStorageManager** é um gerenciador de arquivos web-based, construído com Go no backend e HTML/CSS/JavaScript no frontend.
  uma interface limpa e intuitiva para interagir com o sistema de arquivos do meu servidor, permitindo listar, navegar por diretórios e criar novas pastas.
- Projetado para ser leve e eficiente, pois meu servidor é modesto em hardware mt simples, precisava de um solução simples leves e facil de ultilizar.
- deploy feito  no proprio servidor, com somente eu tenho acesso no meu celular e notbook pois são meus arquivos pessoais 
+ Projetado para ser leve e eficiente, pois meu servidor é modesto em hardware muito simples, precisava de um solução simples leves e facil de ultilizar.
+ deploy feito  no proprio servidor, como são arquivos pessoais somente eu tenho acesso e dispositivos que eu escolho
 
 ## Inspiração
 
