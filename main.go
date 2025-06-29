@@ -163,10 +163,7 @@ func main() {
 	}
 
 	basePathValue := os.Getenv("BASE_DIR_PATH")
-	if basePathValue == "" {
-		log.Println("BASE_DIR_PATH não definida nas variáveis de ambiente. Usando 'S:\\' como padrão.")
-		basePathValue = "S:\\"
-	}
+
 
 	basePathValue = filepath.Clean(basePathValue)
 	if !strings.HasSuffix(basePathValue, string(os.PathSeparator)) {
