@@ -21,18 +21,4 @@ O nome "Alfredo" é uma homenagem ao icônico mordomo do Batman, Alfred Pennywor
 
 
 
-## Estrutura do Projeto
-├── go_server/
-│   ├── api/
-│   │   ├── .env              # Arquivo de variáveis de ambiente (local)
-│   │   ├── main.go           # Código do servidor Go (backend)
-|   |   ├── .gitignore        # Arquivo para ignorar arquivos no Git 
-│   │   ├──  go.mod           # Módulo Go e dependências
-        └── README.md         # Este arquivo!
-       
-│   ├── Frontend/
-│   │   ├── index.html        # Interface do usuário (frontend)
-│   │   ├── style.css         # Estilos CSS
-│   │   └── script.js         # Lógica JavaScript
-
 
