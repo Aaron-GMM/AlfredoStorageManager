@@ -153,6 +153,7 @@ func (s *Server) handleCreateFolder(w http.ResponseWriter, r *http.Request) {
 	if cleanedTargetPath != string(os.PathSeparator) && !strings.HasSuffix(cleanedTargetPath, string(os.PathSeparator)) && !(len(cleanedTargetPath) == 2 && cleanedTargetPath[1] == ':') {
 		cleanedTargetPath += string(os.PathSeparator)
 	}
+
 	if len(cleanedTargetPath) == 2 && cleanedTargetPath[1] == ':' && !strings.HasSuffix(cleanedTargetPath, string(os.PathSeparator)) {
 		cleanedTargetPath += string(os.PathSeparator)
 	}
