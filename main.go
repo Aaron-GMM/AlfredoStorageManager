@@ -3,12 +3,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/joho/godotenv"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
-	"github.com/joho/godotenv"
 )
 
 func enableCORS(next http.HandlerFunc) http.HandlerFunc {
@@ -39,31 +39,40 @@ func (s *Server) handleRoot(w http.ResponseWriter, r *http.Request) {
 }
 
 func (s *Server) handleFiles(w http.ResponseWriter, r *http.Request) {
-	reqPath := r.URL.Query().Get("path") 
+	reqPath := r.URL.Query().Get("path")
 
 	var targetDir string
 	if reqPath == "" {
-		
+
 		targetDir = s.basePath
 	} else {
-	
+
 		targetDir = reqPath
 	}
-
 
 	cleanedTargetDir := filepath.Clean(targetDir)
 	cleanedBasePath := filepath.Clean(s.basePath)
 
-	
+
 	if !strings.HasSuffix(cleanedBasePath, string(os.PathSeparator)) {
 		cleanedBasePath += string(os.PathSeparator)
 	}
- 
-    if len(cleanedTargetDir) == 2 && cleanedTargetDir[1] == ':' && !strings.HasSuffix(cleanedTargetDir, string(os.PathSeparator)) {
-        cleanedTargetDir += string(os.PathSeparator)
-    }
+
+
+	if cleanedTargetDir != string(os.PathSeparator) && !strings.HasSuffix(cleanedTargetDir, string(os.PathSeparator)) && !(len(cleanedTargetDir) == 2 && cleanedTargetDir[1] == ':') {
+		cleanedTargetDir += string(os.PathSeparator)
+	}
+	
+	if len(cleanedTargetDir) == 2 && cleanedTargetDir[1] == ':' && !strings.HasSuffix(cleanedTargetDir, string(os.PathSeparator)) {
+		cleanedTargetDir += string(os.PathSeparator)
+	}
+	log.Printf("DEBUG [handleFiles]: s.basePath (servidor): '%s'", s.basePath)
+	log.Printf("DEBUG [handleFiles]: reqPath (do frontend): '%s'", reqPath)
+	log.Printf("DEBUG [handleFiles]: cleanedBasePath (para comparação): '%s'", cleanedBasePath)
+	log.Printf("DEBUG [handleFiles]: cleanedTargetDir (para comparação): '%s'", cleanedTargetDir)
 
 	if !strings.HasPrefix(cleanedTargetDir, cleanedBasePath) {
+		log.Printf("ERRO DE SEGURANÇA [handleFiles]: '%s' NÃO começa com '%s'. Acesso negado.", cleanedTargetDir, cleanedBasePath)
 		http.Error(w, "Acesso negado: Tentativa de acessar fora do diretório base", http.StatusForbidden)
 		return
 	}
@@ -119,7 +128,7 @@ func (s *Server) handleCreateFolder(w http.ResponseWriter, r *http.Request) {
 	}
 
 	var requestBody struct {
-		Path       string `json:"path"` 
+		Path       string `json:"path"`
 		FolderName string `json:"folder_name"`
 	}
 
@@ -134,19 +143,24 @@ func (s *Server) handleCreateFolder(w http.ResponseWriter, r *http.Request) {
 	}
 
 	targetPath := filepath.Join(requestBody.Path, requestBody.FolderName)
-    
-    cleanedTargetPath := filepath.Clean(targetPath)
-    if len(cleanedTargetPath) == 2 && cleanedTargetPath[1] == ':' && !strings.HasSuffix(cleanedTargetPath, string(os.PathSeparator)) {
-        cleanedTargetPath += string(os.PathSeparator)
-    }
 
-
+	cleanedTargetPath := filepath.Clean(targetPath)
+	if len(cleanedTargetPath) == 2 && cleanedTargetPath[1] == ':' && !strings.HasSuffix(cleanedTargetPath, string(os.PathSeparator)) {
+		cleanedTargetPath += string(os.PathSeparator)
+	}
+	if cleanedTargetPath != string(os.PathSeparator) && !strings.HasSuffix(cleanedTargetPath, string(os.PathSeparator)) && !(len(cleanedTargetPath) == 2 && cleanedTargetPath[1] == ':') {
+		cleanedTargetPath += string(os.PathSeparator)
+	}
+	// Se for um drive do Windows (ex: "C:"), garante que tenha a barra final
+	if len(cleanedTargetPath) == 2 && cleanedTargetPath[1] == ':' && !strings.HasSuffix(cleanedTargetPath, string(os.PathSeparator)) {
+		cleanedTargetPath += string(os.PathSeparator)
+	}
 	if !strings.HasPrefix(cleanedTargetPath, cleanedBasePath) {
 		http.Error(w, "Acesso negado: Tentativa de criar pasta fora do diretório base", http.StatusForbidden)
 		return
 	}
 
-	err := os.MkdirAll(cleanedTargetPath, 0755) 
+	err := os.MkdirAll(cleanedTargetPath, 0755)
 	if err != nil {
 		http.Error(w, fmt.Sprintf("Erro ao criar pasta '%s': %v", requestBody.FolderName, err), http.StatusInternalServerError)
 		return
@@ -163,7 +177,6 @@ func main() {
 	}
 
 	basePathValue := os.Getenv("BASE_DIR_PATH")
-
 
 	basePathValue = filepath.Clean(basePathValue)
 	if !strings.HasSuffix(basePathValue, string(os.PathSeparator)) {
