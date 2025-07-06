@@ -110,9 +110,11 @@ func (s *Server) handleFiles(w http.ResponseWriter, r *http.Request) {
 	response := struct {
 		CurrentPath string     `json:"current_path"`
 		Files       []FileItem `json:"files"`
+		AppRootPath string     `json:"app_root_path"` // NOVO: Campo para a raiz da aplicação
 	}{
 		CurrentPath: displayPath,
 		Files:       fileItems,
+		AppRootPath: s.basePath, // NOVO: Valor da raiz da aplicação
 	}
 
 	if err := json.NewEncoder(w).Encode(response); err != nil {
@@ -151,7 +153,7 @@ func (s *Server) handleCreateFolder(w http.ResponseWriter, r *http.Request) {
 	if cleanedTargetPath != string(os.PathSeparator) && !strings.HasSuffix(cleanedTargetPath, string(os.PathSeparator)) && !(len(cleanedTargetPath) == 2 && cleanedTargetPath[1] == ':') {
 		cleanedTargetPath += string(os.PathSeparator)
 	}
-	// Se for um drive do Windows (ex: "C:"), garante que tenha a barra final
+
 	if len(cleanedTargetPath) == 2 && cleanedTargetPath[1] == ':' && !strings.HasSuffix(cleanedTargetPath, string(os.PathSeparator)) {
 		cleanedTargetPath += string(os.PathSeparator)
 	}
