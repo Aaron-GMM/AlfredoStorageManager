@@ -1,24 +1,39 @@
-# AlfredoStorageManager
+#  Alfredo Storage Manager (API Backend)
 
-## Visão Geral
+> Um servidor de armazenamento de arquivos (File Manager API) extremamente leve, otimizado para rodar em hardwares legados (32-bits) e focado no consumo mínimo de memória RAM.
 
-**AlfredoStorageManager** é um gerenciador de arquivos web-based, construído com Go no backend e HTML/CSS/JavaScript no frontend.
- uma interface limpa e intuitiva para interagir com o sistema de arquivos do meu servidor, permitindo listar, navegar por diretórios e criar novas pastas.
- Projetado para ser leve e eficiente, pois meu servidor é modesto em hardware muito simples, precisava de um solução simples leves e facil de ultilizar.
- deploy feito  no proprio servidor, como são arquivos pessoais somente eu tenho acesso e dispositivos que eu escolho
+![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=for-the-badge&logo=go)
+![Architecture](https://img.shields.io/badge/Arch-32--bit-red?style=for-the-badge)
+![Nginx](https://img.shields.io/badge/Nginx-Reverse%20Proxy-009639?style=for-the-badge&logo=nginx)
 
-## Inspiração
+##  Sobre o Projeto
+O backend do **Alfredo Storage Manager** foi projetado com um objetivo radical: gerenciar um sistema de arquivos completo utilizando o menor *footprint* de memória possível, sem sacrificar estabilidade. Para isso, o sistema trabalha de forma puramente *headless* (apenas API JSON), delegando a entrega de assets estáticos (Frontend) para o Nginx.
 
-O nome "Alfredo" é uma homenagem ao icônico mordomo do Batman, Alfred Pennyworth,
- refletindo a ideia de um assistente leal e capaz que gerencia os recursos de forma eficiente e discreta. 
+##  Otimizações Low RAM Constraints
+- **Zero-Allocation Programming**: Uso massivo de `sync.Pool` para reutilizar buffers na memória em rotas de I/O de alta densidade, reduzindo a sobrecarga do *Garbage Collector*.
+- **Stream I/O & Buffered Writers**: Evitamos carregar arquivos inteiros para a RAM. Utilizamos buffers estáticos (ex: 32KB) com `bufio` e rotas baseadas em streams sob demanda (`io.CopyBuffer` e `MultipartReader`).
+- **Binary Stripping**: Compilado com `-ldflags="-s -w"` e arquitetura apontada para CPUs legadas (`GOARCH=386`).
+- **Monitoramento Estrito**: Timeouts restritivos (`Read`, `Write`, `Idle`) mitigam ataques parasitas e vazamento de *goroutines*.
+- **Pprof Integrado**: Rota embutida para monitoramento ativo e mapeamento de memória em tempo real da aplicação (`/debug/pprof`).
 
-## Funcionalidades
+## ⚙ Instalação e Build
 
-* **Listagem de Arquivos e Diretórios:** Visualize facilmente o conteúdo das pastas.
-* **Navegação Intuitiva:** Clique em diretórios para explorá-los e utilize o botão "Voltar" para subir na hierarquia.
-* **Criação de Pastas:** Crie novas pastas de forma simples através da interface web.
-* **Configuração de Caminho Base:** O diretório raiz do gerenciamento de arquivos é configurável via variáveis de ambiente, garantindo flexibilidade e segurança.
+### 1. Requisitos
+- Go 1.21+
+- Nginx (recomendado para atuar como proxy reverso)
 
+### 2. Compilação Otimizada para 32-bits
+```bash
+GOARCH=386 go build -ldflags="-s -w" -o server32_optimized main.go
+```
 
+## 🔗 Endpoints da API
+Rotas protegidas que manipulam o sistema de arquivos base:
+- `GET /files` - Lista arquivos e pastas
+- `POST /create-folder` - Cria novos diretórios
+- `POST /upload` - Processa streaming de arquivos 
+- `GET /download` - Faz o *sendfile* do conteúdo com consumo mínimo de memória
+- `DELETE /delete` - Remove itens
+- `POST /rename` - Renomeia arquivos e pastas
 
-
+*Nota: O frontend desta aplicação vive em seu próprio repositório: [AlfredoStorageManagerFront](https://github.com/Aaron-GMM/AlfredoStorageManagerFront).*
