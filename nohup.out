@@ -1,0 +1,672 @@
+2025/07/06 20:07:53 Servidor Backend Go iniciado localmente na porta :8080
+2025/07/06 20:08:05 Servidor Backend Go iniciado localmente na porta :8080
+2025/07/06 20:08:05 listen tcp :8080: bind: address already in use
+exit status 1
+2025/07/06 20:08:11 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:11 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:08:11 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:11 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:17 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:17 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/06 20:08:17 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:17 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/06 20:08:22 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:22 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare'
+2025/07/06 20:08:22 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:22 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:24 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:24 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:08:24 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:24 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:30 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:30 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:08:30 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:30 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:32 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:32 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/06 20:08:32 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:32 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/06 20:08:32 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:32 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare'
+2025/07/06 20:08:32 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:08:32 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:25 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:25 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:11:25 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:25 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:27 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:27 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/06 20:11:27 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:27 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/06 20:11:28 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:28 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare'
+2025/07/06 20:11:28 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:28 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:32 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:32 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:11:32 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:32 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:57 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:57 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:11:57 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:11:57 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:20 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:20 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:12:20 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:20 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:21 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:21 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:12:21 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:21 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:23 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:23 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/06 20:12:23 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:23 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/06 20:12:24 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:24 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/SOs'
+2025/07/06 20:12:24 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:24 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/SOs/'
+2025/07/06 20:12:24 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:24 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/06 20:12:24 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:24 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/06 20:12:25 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:25 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare'
+2025/07/06 20:12:25 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:25 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:25 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:25 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/06 20:12:25 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:25 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/06 20:12:29 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:29 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare'
+2025/07/06 20:12:29 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:29 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:34 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:34 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:12:34 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:12:34 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:13:27 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:13:27 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:13:27 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:13:27 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:13:28 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:13:28 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:13:28 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:13:28 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:15:59 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:15:59 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:15:59 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:15:59 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:16:00 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:16:00 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/06 20:16:00 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/06 20:16:00 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 16:26:07 Servidor Backend Go iniciado localmente na porta :8080
+2025/07/07 16:26:14 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/07 16:26:14 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/07 16:26:14 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 16:26:14 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:18:58 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:18:58 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/07 22:18:58 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:18:58 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:01 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:01 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/07 22:19:01 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:01 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/07 22:19:02 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:02 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare'
+2025/07/07 22:19:02 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:02 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:03 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:03 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/SabrinaMeuamor'
+2025/07/07 22:19:03 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:03 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/SabrinaMeuamor/'
+2025/07/07 22:19:05 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:05 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare'
+2025/07/07 22:19:05 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:05 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:06 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:06 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/07 22:19:06 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:06 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/07 22:19:07 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:07 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare'
+2025/07/07 22:19:07 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:07 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:09 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:09 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/07 22:19:09 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/07 22:19:09 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/08 08:47:29 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/08 08:47:29 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/08 08:47:29 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/08 08:47:29 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/08 09:48:14 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/08 09:48:14 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/08 09:48:14 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/08 09:48:14 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/08 09:48:16 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/08 09:48:16 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Estudo'
+2025/07/08 09:48:16 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/08 09:48:16 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Estudo/'
+2025/07/08 09:48:17 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/08 09:48:17 DEBUG [handleFiles]: reqPath (do frontend): '//home/alfredoserver/SambaShare'
+2025/07/08 09:48:17 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/08 09:48:17 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:29:58 Servidor Backend Go iniciado localmente na porta :8080
+2025/07/13 22:30:09 Requisição Recebida: [IP: 10.144.66.170:62684] [Método: OPTIONS] [URL: /files]
+2025/07/13 22:30:09 Requisição Concluída: [IP: 10.144.66.170:62684] [Método: OPTIONS] [URL: /files] - Tempo: 419.119µs
+2025/07/13 22:30:09 Requisição Recebida: [IP: 10.144.66.170:62684] [Método: GET] [URL: /files]
+2025/07/13 22:30:09 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:62684
+2025/07/13 22:30:09 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:09 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/13 22:30:09 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:09 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:09 Requisição Concluída: [IP: 10.144.66.170:62684] [Método: GET] [URL: /files] - Tempo: 2.389698ms
+2025/07/13 22:30:09 Requisição Recebida: [IP: 10.144.66.170:62684] [Método: GET] [URL: /files]
+2025/07/13 22:30:09 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:62684
+2025/07/13 22:30:09 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:09 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/13 22:30:09 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:09 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:09 Requisição Concluída: [IP: 10.144.66.170:62684] [Método: GET] [URL: /files] - Tempo: 1.288995ms
+2025/07/13 22:30:18 Requisição Recebida: [IP: 10.144.66.170:62684] [Método: OPTIONS] [URL: /files]
+2025/07/13 22:30:18 Requisição Concluída: [IP: 10.144.66.170:62684] [Método: OPTIONS] [URL: /files] - Tempo: 182.985µs
+2025/07/13 22:30:18 Requisição Recebida: [IP: 10.144.66.170:62684] [Método: GET] [URL: /files]
+2025/07/13 22:30:18 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:62684
+2025/07/13 22:30:18 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:18 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/imagens'
+2025/07/13 22:30:18 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:18 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/imagens/'
+2025/07/13 22:30:19 Requisição Concluída: [IP: 10.144.66.170:62684] [Método: GET] [URL: /files] - Tempo: 36.243284ms
+2025/07/13 22:30:21 Requisição Recebida: [IP: 10.144.66.170:62684] [Método: OPTIONS] [URL: /files]
+2025/07/13 22:30:21 Requisição Concluída: [IP: 10.144.66.170:62684] [Método: OPTIONS] [URL: /files] - Tempo: 311.563µs
+2025/07/13 22:30:21 Requisição Recebida: [IP: 10.144.66.170:62684] [Método: GET] [URL: /files]
+2025/07/13 22:30:21 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:62684
+2025/07/13 22:30:21 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:21 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/07/13 22:30:21 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:21 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/13 22:30:21 Requisição Concluída: [IP: 10.144.66.170:62684] [Método: GET] [URL: /files] - Tempo: 1.45431ms
+2025/07/14 08:10:42 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files]
+2025/07/14 08:10:42 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files] - Tempo: 386.638µs
+2025/07/14 08:10:42 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files]
+2025/07/14 08:10:42 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:62092
+2025/07/14 08:10:42 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:42 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/14 08:10:42 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:42 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:42 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files] - Tempo: 1.594604ms
+2025/07/14 08:10:42 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files]
+2025/07/14 08:10:42 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:62092
+2025/07/14 08:10:42 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:42 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/14 08:10:42 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:42 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:42 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files] - Tempo: 1.545436ms
+2025/07/14 08:10:46 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files]
+2025/07/14 08:10:46 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files] - Tempo: 407.311µs
+2025/07/14 08:10:46 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files]
+2025/07/14 08:10:46 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:62092
+2025/07/14 08:10:46 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:46 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/14 08:10:46 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:46 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/14 08:10:46 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files] - Tempo: 1.342618ms
+2025/07/14 08:10:48 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files]
+2025/07/14 08:10:48 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files] - Tempo: 340.822µs
+2025/07/14 08:10:48 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files]
+2025/07/14 08:10:48 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:62092
+2025/07/14 08:10:48 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:48 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios'
+2025/07/14 08:10:48 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:48 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/'
+2025/07/14 08:10:48 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files] - Tempo: 1.554935ms
+2025/07/14 08:10:58 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files]
+2025/07/14 08:10:58 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files] - Tempo: 543.85µs
+2025/07/14 08:10:58 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files]
+2025/07/14 08:10:58 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:62092
+2025/07/14 08:10:58 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:58 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/Python'
+2025/07/14 08:10:58 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:58 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/Python/'
+2025/07/14 08:10:58 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files] - Tempo: 68.555417ms
+2025/07/14 08:10:59 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files]
+2025/07/14 08:10:59 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: OPTIONS] [URL: /files] - Tempo: 363.172µs
+2025/07/14 08:10:59 Requisição Recebida: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files]
+2025/07/14 08:10:59 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:62092
+2025/07/14 08:10:59 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:59 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/Python/Webscraping'
+2025/07/14 08:10:59 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/14 08:10:59 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/Python/Webscraping/'
+2025/07/14 08:10:59 Requisição Concluída: [IP: 10.144.55.74:62092] [Método: GET] [URL: /files] - Tempo: 56.645053ms
+2025/07/15 11:34:18 Requisição Recebida: [IP: 10.144.55.74:56836] [Método: OPTIONS] [URL: /files]
+2025/07/15 11:34:18 Requisição Concluída: [IP: 10.144.55.74:56836] [Método: OPTIONS] [URL: /files] - Tempo: 389.643µs
+2025/07/15 11:34:18 Requisição Recebida: [IP: 10.144.55.74:56836] [Método: GET] [URL: /files]
+2025/07/15 11:34:18 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:56836
+2025/07/15 11:34:18 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:34:18 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/15 11:34:18 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:34:18 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:34:18 Requisição Concluída: [IP: 10.144.55.74:56836] [Método: GET] [URL: /files] - Tempo: 1.255741ms
+2025/07/15 11:34:18 Requisição Recebida: [IP: 10.144.55.74:56836] [Método: GET] [URL: /files]
+2025/07/15 11:34:18 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:56836
+2025/07/15 11:34:18 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:34:18 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/15 11:34:18 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:34:18 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:34:18 Requisição Concluída: [IP: 10.144.55.74:56836] [Método: GET] [URL: /files] - Tempo: 1.48398ms
+2025/07/15 11:35:03 Requisição Recebida: [IP: 10.144.55.74:56837] [Método: OPTIONS] [URL: /files]
+2025/07/15 11:35:03 Requisição Concluída: [IP: 10.144.55.74:56837] [Método: OPTIONS] [URL: /files] - Tempo: 279.853µs
+2025/07/15 11:35:03 Requisição Recebida: [IP: 10.144.55.74:56837] [Método: GET] [URL: /files]
+2025/07/15 11:35:03 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:56837
+2025/07/15 11:35:03 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:35:03 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/15 11:35:03 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:35:03 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/15 11:35:03 Requisição Concluída: [IP: 10.144.55.74:56837] [Método: GET] [URL: /files] - Tempo: 1.338083ms
+2025/07/15 11:35:04 Requisição Recebida: [IP: 10.144.55.74:56837] [Método: OPTIONS] [URL: /files]
+2025/07/15 11:35:04 Requisição Concluída: [IP: 10.144.55.74:56837] [Método: OPTIONS] [URL: /files] - Tempo: 235.224µs
+2025/07/15 11:35:04 Requisição Recebida: [IP: 10.144.55.74:56837] [Método: GET] [URL: /files]
+2025/07/15 11:35:04 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:56837
+2025/07/15 11:35:04 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:35:04 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/07/15 11:35:04 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:35:04 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:35:04 Requisição Concluída: [IP: 10.144.55.74:56837] [Método: GET] [URL: /files] - Tempo: 1.340109ms
+2025/07/15 11:35:05 Requisição Recebida: [IP: 10.144.55.74:56837] [Método: GET] [URL: /files]
+2025/07/15 11:35:05 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:56837
+2025/07/15 11:35:05 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:35:05 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/15 11:35:05 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/15 11:35:05 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/15 11:35:05 Requisição Concluída: [IP: 10.144.55.74:56837] [Método: GET] [URL: /files] - Tempo: 1.169697ms
+2025/07/17 11:01:06 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files]
+2025/07/17 11:01:06 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files] - Tempo: 303.112µs
+2025/07/17 11:01:06 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files]
+2025/07/17 11:01:06 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:49406
+2025/07/17 11:01:06 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:06 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/17 11:01:06 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:06 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:06 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files] - Tempo: 1.295069ms
+2025/07/17 11:01:06 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files]
+2025/07/17 11:01:06 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:49406
+2025/07/17 11:01:06 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:06 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/17 11:01:06 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:06 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:06 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files] - Tempo: 1.356808ms
+2025/07/17 11:01:08 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files]
+2025/07/17 11:01:08 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files] - Tempo: 232.222µs
+2025/07/17 11:01:08 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files]
+2025/07/17 11:01:08 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:49406
+2025/07/17 11:01:08 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:08 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/17 11:01:08 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:08 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/17 11:01:08 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files] - Tempo: 1.495443ms
+2025/07/17 11:01:09 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files]
+2025/07/17 11:01:09 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files] - Tempo: 311.214µs
+2025/07/17 11:01:09 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files]
+2025/07/17 11:01:09 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:49406
+2025/07/17 11:01:09 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:09 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/07/17 11:01:09 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:09 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:09 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files] - Tempo: 1.339069ms
+2025/07/17 11:01:12 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files]
+2025/07/17 11:01:12 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files] - Tempo: 252.616µs
+2025/07/17 11:01:12 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files]
+2025/07/17 11:01:12 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:49406
+2025/07/17 11:01:12 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:12 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/go_server'
+2025/07/17 11:01:12 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:12 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/go_server/'
+2025/07/17 11:01:12 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files] - Tempo: 1.363304ms
+2025/07/17 11:01:13 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files]
+2025/07/17 11:01:13 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files] - Tempo: 310.096µs
+2025/07/17 11:01:13 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files]
+2025/07/17 11:01:13 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:49406
+2025/07/17 11:01:13 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:13 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/go_server/Frontend'
+2025/07/17 11:01:13 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:13 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/go_server/Frontend/'
+2025/07/17 11:01:13 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files] - Tempo: 1.264059ms
+2025/07/17 11:01:14 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files]
+2025/07/17 11:01:14 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: OPTIONS] [URL: /files] - Tempo: 243.956µs
+2025/07/17 11:01:14 Requisição Recebida: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files]
+2025/07/17 11:01:14 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:49406
+2025/07/17 11:01:14 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:14 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/07/17 11:01:14 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:14 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 11:01:14 Requisição Concluída: [IP: 10.144.66.170:49406] [Método: GET] [URL: /files] - Tempo: 1.290599ms
+2025/07/17 20:07:14 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files]
+2025/07/17 20:07:14 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files] - Tempo: 275.245µs
+2025/07/17 20:07:14 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files]
+2025/07/17 20:07:14 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:57211
+2025/07/17 20:07:14 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:14 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/17 20:07:14 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:14 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:14 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files] - Tempo: 1.513323ms
+2025/07/17 20:07:14 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files]
+2025/07/17 20:07:14 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:57211
+2025/07/17 20:07:14 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:14 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/07/17 20:07:14 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:14 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:14 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files] - Tempo: 1.307151ms
+2025/07/17 20:07:17 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files]
+2025/07/17 20:07:17 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files] - Tempo: 229.289µs
+2025/07/17 20:07:17 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files]
+2025/07/17 20:07:17 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:57211
+2025/07/17 20:07:17 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:17 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/07/17 20:07:17 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:17 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/07/17 20:07:17 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files] - Tempo: 1.278656ms
+2025/07/17 20:07:18 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files]
+2025/07/17 20:07:18 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files] - Tempo: 235.854µs
+2025/07/17 20:07:18 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files]
+2025/07/17 20:07:18 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:57211
+2025/07/17 20:07:18 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:18 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/07/17 20:07:18 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:18 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:18 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files] - Tempo: 1.244573ms
+2025/07/17 20:07:19 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files]
+2025/07/17 20:07:19 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files] - Tempo: 287.816µs
+2025/07/17 20:07:19 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files]
+2025/07/17 20:07:19 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:57211
+2025/07/17 20:07:19 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:19 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Estudo'
+2025/07/17 20:07:19 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:19 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Estudo/'
+2025/07/17 20:07:19 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files] - Tempo: 1.25016ms
+2025/07/17 20:07:20 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files]
+2025/07/17 20:07:20 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:57211
+2025/07/17 20:07:20 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:20 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/07/17 20:07:20 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:20 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:20 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files] - Tempo: 1.429234ms
+2025/07/17 20:07:22 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files]
+2025/07/17 20:07:22 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:57211
+2025/07/17 20:07:22 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:22 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Estudo'
+2025/07/17 20:07:22 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:22 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Estudo/'
+2025/07/17 20:07:22 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files] - Tempo: 1.309107ms
+2025/07/17 20:07:23 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files]
+2025/07/17 20:07:23 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files] - Tempo: 320.921µs
+2025/07/17 20:07:23 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files]
+2025/07/17 20:07:23 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:57211
+2025/07/17 20:07:23 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:23 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Estudo/PDFS'
+2025/07/17 20:07:23 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:23 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Estudo/PDFS/'
+2025/07/17 20:07:23 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files] - Tempo: 1.357506ms
+2025/07/17 20:07:25 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files]
+2025/07/17 20:07:25 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: OPTIONS] [URL: /files] - Tempo: 256.317µs
+2025/07/17 20:07:25 Requisição Recebida: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files]
+2025/07/17 20:07:25 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:57211
+2025/07/17 20:07:25 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:25 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Estudo/PDFS/SO'
+2025/07/17 20:07:25 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/07/17 20:07:25 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Estudo/PDFS/SO/'
+2025/07/17 20:07:25 Requisição Concluída: [IP: 10.144.55.74:57211] [Método: GET] [URL: /files] - Tempo: 1.477214ms
+2025/09/03 09:02:14 Servidor Backend Go iniciado localmente na porta :8080
+2025/09/03 09:04:06 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files]
+2025/09/03 09:04:06 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files] - Tempo: 457.876µs
+2025/09/03 09:04:06 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:06 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:06 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:06 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/09/03 09:04:06 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:06 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:06 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 2.413697ms
+2025/09/03 09:04:06 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:06 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:06 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:06 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/09/03 09:04:06 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:06 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:06 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 1.528745ms
+2025/09/03 09:04:08 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files]
+2025/09/03 09:04:08 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files] - Tempo: 239.973µs
+2025/09/03 09:04:08 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:08 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:08 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:08 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/09/03 09:04:08 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:08 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/09/03 09:04:08 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 1.231711ms
+2025/09/03 09:04:10 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files]
+2025/09/03 09:04:10 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files] - Tempo: 234.315µs
+2025/09/03 09:04:10 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:10 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:10 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:10 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/09/03 09:04:10 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:10 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:10 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 1.262161ms
+2025/09/03 09:04:14 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files]
+2025/09/03 09:04:14 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files] - Tempo: 251.426µs
+2025/09/03 09:04:14 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:14 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:14 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:14 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Estudo'
+2025/09/03 09:04:14 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:14 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Estudo/'
+2025/09/03 09:04:14 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 1.233106ms
+2025/09/03 09:04:16 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files]
+2025/09/03 09:04:16 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files] - Tempo: 232.429µs
+2025/09/03 09:04:16 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:16 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:16 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:16 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/09/03 09:04:16 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:16 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:16 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 1.396951ms
+2025/09/03 09:04:17 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files]
+2025/09/03 09:04:17 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files] - Tempo: 305.623µs
+2025/09/03 09:04:17 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:17 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:17 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:17 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/imagens'
+2025/09/03 09:04:17 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:17 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/imagens/'
+2025/09/03 09:04:17 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 1.650472ms
+2025/09/03 09:04:20 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:20 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:20 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:20 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/09/03 09:04:20 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:20 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:20 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 1.475032ms
+2025/09/03 09:04:21 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files]
+2025/09/03 09:04:21 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files] - Tempo: 310.72µs
+2025/09/03 09:04:21 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:21 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:21 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:21 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/documentos'
+2025/09/03 09:04:21 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:21 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/documentos/'
+2025/09/03 09:04:21 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 1.288418ms
+2025/09/03 09:04:23 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files]
+2025/09/03 09:04:23 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: OPTIONS] [URL: /files] - Tempo: 241.368µs
+2025/09/03 09:04:23 Requisição Recebida: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files]
+2025/09/03 09:04:23 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:57657
+2025/09/03 09:04:23 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:23 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/09/03 09:04:23 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:23 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 09:04:23 Requisição Concluída: [IP: 10.144.66.170:57657] [Método: GET] [URL: /files] - Tempo: 1.310416ms
+2025/09/03 15:01:20 Requisição Recebida: [IP: 10.144.66.170:61963] [Método: OPTIONS] [URL: /files]
+2025/09/03 15:01:20 Requisição Concluída: [IP: 10.144.66.170:61963] [Método: OPTIONS] [URL: /files] - Tempo: 302.065µs
+2025/09/03 15:01:20 Requisição Recebida: [IP: 10.144.66.170:61963] [Método: GET] [URL: /files]
+2025/09/03 15:01:20 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:61963
+2025/09/03 15:01:20 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 15:01:20 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Estudo'
+2025/09/03 15:01:20 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 15:01:20 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Estudo/'
+2025/09/03 15:01:20 Requisição Concluída: [IP: 10.144.66.170:61963] [Método: GET] [URL: /files] - Tempo: 1.306595ms
+2025/09/03 15:01:21 Requisição Recebida: [IP: 10.144.66.170:61963] [Método: OPTIONS] [URL: /files]
+2025/09/03 15:01:21 Requisição Concluída: [IP: 10.144.66.170:61963] [Método: OPTIONS] [URL: /files] - Tempo: 312.89µs
+2025/09/03 15:01:21 Requisição Recebida: [IP: 10.144.66.170:61963] [Método: GET] [URL: /files]
+2025/09/03 15:01:21 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:61963
+2025/09/03 15:01:21 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 15:01:21 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Estudo/Curso de Criptografia'
+2025/09/03 15:01:21 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 15:01:21 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Estudo/Curso de Criptografia/'
+2025/09/03 15:01:21 Requisição Concluída: [IP: 10.144.66.170:61963] [Método: GET] [URL: /files] - Tempo: 1.466322ms
+2025/09/03 15:01:23 Requisição Recebida: [IP: 10.144.66.170:61963] [Método: GET] [URL: /files]
+2025/09/03 15:01:23 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:61963
+2025/09/03 15:01:23 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 15:01:23 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Estudo'
+2025/09/03 15:01:23 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 15:01:23 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Estudo/'
+2025/09/03 15:01:23 Requisição Concluída: [IP: 10.144.66.170:61963] [Método: GET] [URL: /files] - Tempo: 1.248696ms
+2025/09/03 15:01:24 Requisição Recebida: [IP: 10.144.66.170:61963] [Método: OPTIONS] [URL: /files]
+2025/09/03 15:01:24 Requisição Concluída: [IP: 10.144.66.170:61963] [Método: OPTIONS] [URL: /files] - Tempo: 229.988µs
+2025/09/03 15:01:24 Requisição Recebida: [IP: 10.144.66.170:61963] [Método: GET] [URL: /files]
+2025/09/03 15:01:24 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.66.170:61963
+2025/09/03 15:01:24 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/03 15:01:24 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/09/03 15:01:24 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 15:01:24 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/03 15:01:24 Requisição Concluída: [IP: 10.144.66.170:61963] [Método: GET] [URL: /files] - Tempo: 1.293184ms
+2025/09/19 10:28:46 Servidor Backend Go iniciado localmente na porta :8080
+2025/09/19 10:36:06 Servidor Backend Go iniciado localmente na porta :8080
+2025/09/19 10:36:06 listen tcp :8080: bind: address already in use
+exit status 1
+2025/09/19 10:45:29 Servidor Backend Go iniciado localmente na porta :8080
+2025/09/19 10:47:14 Servidor Backend Go iniciado localmente na porta :8080
+2025/09/19 10:47:14 listen tcp :8080: bind: address already in use
+exit status 1
+2025/09/19 10:47:43 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:47:43 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 334.4µs
+2025/09/19 10:47:43 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:47:43 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:47:43 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:43 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/09/19 10:47:43 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:43 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:43 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 2.467698ms
+2025/09/19 10:47:44 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:47:44 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:47:44 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:44 DEBUG [handleFiles]: reqPath (do frontend): ''
+2025/09/19 10:47:44 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:44 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:44 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.375871ms
+2025/09/19 10:47:57 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:47:57 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 280.063µs
+2025/09/19 10:47:57 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:47:57 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:47:57 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:57 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/09/19 10:47:57 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:57 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/09/19 10:47:57 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.210418ms
+2025/09/19 10:47:58 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:47:58 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 239.416µs
+2025/09/19 10:47:58 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:47:58 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:47:58 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:58 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios'
+2025/09/19 10:47:58 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:47:58 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/'
+2025/09/19 10:47:58 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.480632ms
+2025/09/19 10:48:02 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:48:02 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 296.196µs
+2025/09/19 10:48:02 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:02 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:02 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:02 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/09/19 10:48:02 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:02 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/09/19 10:48:02 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.316925ms
+2025/09/19 10:48:03 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:48:03 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 240.742µs
+2025/09/19 10:48:03 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:03 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:03 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:03 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios'
+2025/09/19 10:48:03 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:03 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/'
+2025/09/19 10:48:03 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.287033ms
+2025/09/19 10:48:06 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:48:06 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 314.565µs
+2025/09/19 10:48:06 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:06 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:06 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:06 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/docker'
+2025/09/19 10:48:06 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:06 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/docker/'
+2025/09/19 10:48:06 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 38.258502ms
+2025/09/19 10:48:09 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:48:09 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 277.34µs
+2025/09/19 10:48:09 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:09 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:09 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:09 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/docker/containerPostegres'
+2025/09/19 10:48:09 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:09 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/docker/containerPostegres/'
+2025/09/19 10:48:09 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 2.017363ms
+2025/09/19 10:48:11 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:11 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:11 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:11 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/docker'
+2025/09/19 10:48:11 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:11 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/docker/'
+2025/09/19 10:48:11 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.285357ms
+2025/09/19 10:48:11 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:48:11 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 231.663µs
+2025/09/19 10:48:11 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:11 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:11 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:11 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios'
+2025/09/19 10:48:11 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:11 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/repositorios/'
+2025/09/19 10:48:11 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.37636ms
+2025/09/19 10:48:12 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:48:12 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 234.666µs
+2025/09/19 10:48:12 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:12 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:12 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:12 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/Desenvolvimento'
+2025/09/19 10:48:12 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:12 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/Desenvolvimento/'
+2025/09/19 10:48:12 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.234024ms
+2025/09/19 10:48:14 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:48:14 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 233.758µs
+2025/09/19 10:48:14 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:14 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:14 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:14 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/09/19 10:48:14 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:14 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:14 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.523655ms
+2025/09/19 10:48:18 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:48:18 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 240.533µs
+2025/09/19 10:48:18 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:18 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:18 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:18 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare/documentos'
+2025/09/19 10:48:18 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:18 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/documentos/'
+2025/09/19 10:48:18 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.399617ms
+2025/09/19 10:48:20 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files]
+2025/09/19 10:48:20 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: OPTIONS] [URL: /files] - Tempo: 215.391µs
+2025/09/19 10:48:20 Requisição Recebida: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files]
+2025/09/19 10:48:20 Acesso AUTORIZADO para usuário 'alfredoserver' de 10.144.55.74:60785
+2025/09/19 10:48:20 DEBUG [handleFiles]: s.basePath (servidor): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:20 DEBUG [handleFiles]: reqPath (do frontend): '/home/alfredoserver/SambaShare'
+2025/09/19 10:48:20 DEBUG [handleFiles]: cleanedBasePath (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:20 DEBUG [handleFiles]: cleanedTargetDir (para comparação): '/home/alfredoserver/SambaShare/'
+2025/09/19 10:48:20 Requisição Concluída: [IP: 10.144.55.74:60785] [Método: GET] [URL: /files] - Tempo: 1.461356ms
