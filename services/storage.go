@@ -1,12 +1,14 @@
 package services
 
 import (
+	"bufio"
 	"errors"
 	"fmt"
 	"io"
 	"os"
 	"path/filepath"
 	"strings"
+	"sync"
 
 	"alfredostoragemanager/api/models"
 )
@@ -17,6 +19,15 @@ var (
 	ErrNotADirectory = errors.New("path is not a directory")
 	ErrInternal     = errors.New("internal server error")
 )
+
+// bufferPool para reutilização de buffers na cópia de streams,
+// otimizando a memória (Zero-Allocation Programming)
+var bufferPool = sync.Pool{
+	New: func() interface{} {
+		buf := make([]byte, 32*1024) // Buffer fixo de 32KB
+		return &buf
+	},
+}
 
 type StorageService interface {
 	ListDir(targetPath string) ([]models.FileItem, string, error)
@@ -186,9 +197,16 @@ func (s *LocalDiskStorage) SaveStream(targetDir string, filename string, reader 
 	}
 	defer outFile.Close()
 
-	// io.Copy uses a small buffer (32KB default) to stream from reader to file.
-	// Highly memory-efficient for 1GB RAM constraint.
-	_, err = io.Copy(outFile, reader)
+	// Implementação de Buffered I/O para reduzir syscalls
+	bufWriter := bufio.NewWriter(outFile)
+	defer bufWriter.Flush()
+
+	// Utilizando sync.Pool para obter o buffer alocado e evitar alocações dinâmicas repetitivas
+	bufPtr := bufferPool.Get().(*[]byte)
+	defer bufferPool.Put(bufPtr)
+
+	// io.CopyBuffer realiza streaming de forma extremamente eficiente
+	_, err = io.CopyBuffer(bufWriter, reader, *bufPtr)
 	if err != nil {
 		return err
 	}

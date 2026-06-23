@@ -1,12 +1,12 @@
 package main
 
 import (
-	"embed"
 	"encoding/json"
-	"io/fs"
 	"log"
 	"net/http"
+	"net/http/pprof"
 	"os"
+	"time"
 
 	"github.com/joho/godotenv"
 
@@ -14,9 +14,6 @@ import (
 	"alfredostoragemanager/api/middleware"
 	"alfredostoragemanager/api/services"
 )
-
-//go:embed Frontend
-var frontendFiles embed.FS
 
 func handleAPIConfig(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
@@ -52,17 +49,8 @@ func main() {
 	// Initialize Handlers
 	storageHandler := handlers.NewStorageHandler(storageService)
 
-	// Extrair o sub-sistema de arquivos da pasta embutida "Frontend"
-	frontendFS, err := fs.Sub(frontendFiles, "Frontend")
-	if err != nil {
-		log.Fatalf("ERRO FATAL: Falha ao carregar o frontend embutido: %v", err)
-	}
-
 	// Setup Routes and Middleware
 	mux := http.NewServeMux()
-
-	// Servir os arquivos estáticos do Frontend embutido na raiz "/"
-	mux.Handle("/", http.FileServer(http.FS(frontendFS)))
 
 	// API Routes
 	mux.HandleFunc("/api/config", handleAPIConfig)
@@ -77,10 +65,27 @@ func main() {
 	mux.Handle("/download", middleware.Auth(http.HandlerFunc(storageHandler.HandleDownload)))
 	mux.Handle("/upload", middleware.Auth(http.HandlerFunc(storageHandler.HandleUpload)))
 
+	// Pprof Routes (Profiling Ativo de Memória e CPU)
+	mux.HandleFunc("/debug/pprof/", pprof.Index)
+	mux.HandleFunc("/debug/pprof/cmdline", pprof.Cmdline)
+	mux.HandleFunc("/debug/pprof/profile", pprof.Profile)
+	mux.HandleFunc("/debug/pprof/symbol", pprof.Symbol)
+	mux.HandleFunc("/debug/pprof/trace", pprof.Trace)
+
 	// Apply global middleware: Logging -> CORS -> Mux
 	handler := middleware.Logging(middleware.CORS(mux))
 
 	port := "8080"
+	
+	// Server com timeouts estritos para evitar vazamento de goroutines (Concorrência Limpa)
+	server := &http.Server{
+		Addr:         ":" + port,
+		Handler:      handler,
+		ReadTimeout:  10 * time.Second,  // Tempo máximo lendo a requisição
+		WriteTimeout: 60 * time.Second,  // Tempo máximo escrevendo a resposta (uploads podem demorar um pouco mais se houver lentidão na rede, ajustar conforme a necessidade de stream)
+		IdleTimeout:  120 * time.Second, // Tempo máximo mantendo a conexão aberta
+	}
+
 	log.Printf("Servidor Backend Go (com Frontend Embutido) iniciado na porta :%s\n", port)
-	log.Fatal(http.ListenAndServe(":"+port, handler))
+	log.Fatal(server.ListenAndServe())
 }
