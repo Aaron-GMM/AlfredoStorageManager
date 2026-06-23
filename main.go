@@ -15,7 +15,7 @@ import (
 	"alfredostoragemanager/api/services"
 )
 
-//go:embed Frontend/*
+//go:embed Frontend
 var frontendFiles embed.FS
 
 func handleAPIConfig(w http.ResponseWriter, r *http.Request) {
